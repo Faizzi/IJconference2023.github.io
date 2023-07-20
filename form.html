@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="form.css">
+    <!-- font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Navbar Starts Here -->
+
+    <nav>
+        <div class="left-side">
+            <img class="logo" src="assets/logo.png" alt="logo" />
+        </div>
+        <div class="right-side">
+            <ul class="list ">
+                <li class="lits-item"><a href="#">Home</a></li>
+                <li class="lits-item"><a href="#">About</a></li>
+                <li class="lits-item"><a href="#">Services</a></li>
+                <li class="lits-item"><a href="#">Work</a></li>
+                <li class="lits-item"><a href="#">Blog</a></li>
+                <li class="lits-item"><a href="#">Contact</a></li>
+            </ul>
+            <div class="mobile-navbar-btn">
+                <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+                <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+            </div>
+        </div>
+        <div class="vision">
+            <img src="assets/vision2030.png" alt="2030 vision">
+        </div>
+
+    </nav>
+
+    <section id="form">
+        <img src="assets/fullPattern.png" alt="">
+
+        <div class="overlay"></div>
+
+        <div class="container " id="form-container">
+            <div class="title" style="text-align: left !important">
+                <img src="assets/fullPattern.png" alt="">
+
+            </div>
+            <div id="form-container">
+                <h2 style="color: #146952">Conference Registeration</h2>
+
+                <form action="#">
+                    <div id="form-upper">
+                        <div class="left-part ">
+                            <div class="input space">
+                                <label for="name">Name:</label>
+                                <input class="input-size border-set" placeholder="Enter your name" type="text" id="name"
+                                    name="name">
+                            </div>
+                            <div class="space">
+                                <label for="country">Country:</label>
+                                <div class="drop-set">
+                                    <div id="div">
+                                        <select class="drop" id="country" name="country">
+                                        </select>
+                                        <input class="choose-input" type="text" name="" id="input-country"
+                                            placeholder="Kingdom of Saudi Arabia">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="space">
+                                <label for="job">Job:</label>
+                                <div class="drop-set">
+                                    <div id="div">
+                                    <select class="drop" id="job" name="job">
+                                        <option value="id-number1" style="width: 20%;">Judge</option>
+                                        <option value="id-number2" style="width: 20%;">Legel Advisor</option>
+                                        <option value="id-number3" style="width: 20%;">lawyer</option>
+                                        <option value="id-number4" style="width: 20%;">Feculty Member</option>
+                                        <option value="id-number5" style="width: 20%;">Others</option>
+                                    </select>
+                                    <input id="jobSet" class="choose-input "  type="text" placeholder="Other">
+                                </div>
+                                </div>
+                            </div>
+                            <div class="input space">
+                                <label for="organization">Organization:</label>
+                                <input class="input-size border-set" placeholder="Enter your organization" type="text"
+                                    id="organization">
+                            </div>
+                        </div>
+                        <div class="right-part">
+                            <div class="input space">
+                                <label for="identification-document">Identification Document:</label>
+                                <div>
+                                    <div id="div">
+                                    <select style="padding: 14px 0px;border: none;">
+                                        <option value="id-number" style="width: 20%;">ID Number</option>
+                                        <option value="id-number" style="width: 20%;">Passport number</option>
+                                    </select>
+                                    <input class="choose-input" type="text" id="identification-document-number"
+                                        name="identification-document-number">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="space">
+                                <label for="residence">City of Residence:</label>
+                                <div>
+                                    <div id="div">
+                                    <select class="drop" id="residence">
+                                    </select>
+                                    <input class="choose-input" type="text" name="" id="residence-input"
+                                        placeholder="Riyadh">
+                                        </div>
+                                </div>
+                            </div>
+                            <!-- <div class="input space">
+                                <label for="name">Qualification:</label>
+                                <input class="input-size border-set" placeholder="Select Degree" type="text" id="degree">
+                            </div> -->
+                            <div class="space">
+                                <label for="job">Qualification:</label>
+                                <div class="drop-set">
+                                    <div id="div">
+                                    <select class="drop" id="job" name="job">
+                                        <option value="id-number1" style="width: 20%;">Diploma</option>
+                                        <option value="id-number2" style="width: 20%;">Higher Diploma</option>
+                                        <option value="id-number3" style="width: 20%;">Bachelor</option>
+                                        <option value="id-number4" style="width: 20%;">Master</option>
+                                        <option value="id-number5" style="width: 20%;">Doctorate Professor</option>
+                                    </select>
+                                    <input class="choose-input Qualification" type="text" placeholder="Select Degree">
+                                </div>
+                                </div>
+                            </div>
+                            <div class="space">
+                                <label for="major">Major:</label>
+                                <div>
+                                    <div id="div">
+                                    <select class="drop" id="major">
+                                    </select>
+                                    <input class="choose-input" type="text" placeholder="Select Specialization">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="form-medium">
+                        <h3 style="color: #146952">Contact Information</h3>
+                        <div class="address">
+                            <div>
+                                <label for="mobile-number">Mobile Number:</label>
+                                <div class="contact-info">
+                                    <div id="div">
+                                    <select class="drop" id="mobile-number-code" name="mobile-number-code">
+                                        <option value="+966">+966</option>
+                                    </select>
+                                    <input class="choose-input" type="text" id="mobile-number" name="mobile-number">
+                                </div>
+                                </div>
+                            </div>
+                            <div class="input">
+                                <label for="name">Email Address:</label>
+                                <input class="input-size border-set" placeholder="user@domain.com" type="text" id="email">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="form-footer">
+                        <div class=" checkbox">
+                            <input type="checkbox" id="confirm-info" name="confirm-info">
+                            <label for="confirm-info">I confirm that the above information is correct</label>
+                        </div>
+                        <div class="buttons">
+                            <button class="sign-up btni">Sign up</button>
+                            <button class="cancle btni">Cancle</button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container ">
+            <div class="footer-container">
+                <div class="upto-date col">
+                    <h3 class="upto-date--title">Stay up to date</h3>
+                    <p>Subscribe to our newsletter and get updates on the latest programs and events</p>
+                    <div class="input-query">
+                        <input type="text" placeholder="Enter your email address" />
+                        <button class="submit-btn btn">submit</button>
+                    </div>
+                </div>
+                <div class="abouts col">
+                    <h3 class="abouts-title">About Us</h3>
+                    <ul class="abouts-list">
+                        <li class="about-list--item"><a class="about-list--link" href="#">Categories</a></li>
+                        <li class="about-list--item"><a class="about-list--link" href="#">Speakers</a></li>
+                        <li class="about-list--item"><a class="about-list--link" href="#">Event Details</a></li>
+                        <li class="about-list--item"><a class="about-list--link" href="#">Sale</a></li>
+                    </ul>
+                </div>
+                <div class="company col">
+                    <h3 class="company-title">Company</h3>
+                    <ul class="company-list">
+                        <li class="comp-list--item"><a class="comp-list--link" href="#">About</a></li>
+                        <li class="comp-list--item"><a class="comp-list--link" href="#">News</a></li>
+                        <li class="comp-list--item"><a class="comp-list--link" href="#">Careers</a></li>
+                        <li class="comp-list--item"><a class="comp-list--link" href="#">Services</a></li>
+                    </ul>
+                </div>
+                <div class="social-data">
+                    <div class="social-images">
+                        <img class="main-logo" src="assets/logo1.jpg" alt="" />
+                        <img style="filter: brightness(0.5)" src="assets/vision2030.png" alt="" />
+                    </div>
+                    <div class="social-icons ">
+                        <ul class="social-icons--list">
+                            <li class="social-list--item"><img src="assets/icons/1.svg" alt=""></li>
+                            <li class="social-list--item"><img src="assets/icons/2.svg" alt=""></li>
+                            <li class="social-list--item"><img src="assets/icons/3.svg" alt=""></li>
+                            <li class="social-list--item"><img src="assets/icons/4.svg" alt=""></li>
+                            <li class="social-list--item"><img src="assets/icons/5.svg" alt=""></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr style="display:block; margin: 2rem auto 0rem auto; width: 100%; ">
+            <p style="text-align: center; color: #146952; padding-top: 1rem;">Copyright &#169; 2023 International
+                Justice
+                Conference - All Right Reseved</p>
+        </div>
+    </footer>
+    <!-- Footer Section Ends Here -->
+    </main>
+    <script src="https://kit.fontawesome.com/68f679dcb4.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="main.js"></script>
+    <script>
+        $(document).click(function (event) {
+            if (!$(event.target).closest(".right-side").length) {
+                $(".right-side ").hide();
+            }
+        });
+
+    </script>
+</body>
+
+</html>
